@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+
+body{
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
+}
+col-md-6 i{
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.navbar-laravel
+{
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+
+.navbar-brand , .nav-link, .my-form, .login-form
+{
+    font-family: Raleway, sans-serif;
+}
+.logo{
+    size: 1em;
+}
+.my-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.input[type=submit]{
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .student{
+    display: inline;
+  }
+  /*-------------------Footer------------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    }
+    .footer h4 {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .icons .fa{
+        color: blue;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18px 0;
+    }
+    label {
+        display: block;
+        color: #7d7d7d;
+      }
+      
+      .floatBlock {
+        margin: 0 1.81em 0 0;
+      }
+      
+      .labelish {
+          color:#7d7d7d;
+          margin: 0;
+      }
+      
+      .paymentOptions {
+          border: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          break-before: always;
+          margin: 0 0 3em 0;
+      }
+      
+      #purchaseOrder {
+          margin: 0 0 2em 0;
+      }
+      
+      
